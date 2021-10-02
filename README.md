@@ -1,6 +1,6 @@
-This folder contains the following files:
+# This folder contains the following files:
 
-- SCRIPTS
+## SCRIPTS
 
     - percolationapprox.py: script having the main functions of our paper (http://www.inf.ufpr.br/amlima/percolation.pdf): 
         - get_diameter_approx: compute the vertex-diameter approximation of the given graph.
