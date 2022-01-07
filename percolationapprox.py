@@ -63,7 +63,7 @@ def get_diameter_approx(G: nx.classes.graph.Graph, directed: int):
 ###########################################################################################
 def get_percolation_difference(G: nx.classes.graph.Graph, A: collections.OrderedDict):
 	"""
-	Implementation of Algorithm 1 as described in http://www.inf.ufpr.br/amlima/percolation.pdf.
+	Implementation of Algorithm 1 as described in https://dl.acm.org/doi/abs/10.1145/3394486.3403235.
 
 
 	Parameters:
@@ -111,7 +111,7 @@ def get_percolation_difference(G: nx.classes.graph.Graph, A: collections.Ordered
 ###########################################################################################
 def percolation_centrality_approximation(G: nx.classes.graph.Graph, x: dict, directed: int, epsilon: float, delta: float, universalConstant=0.5):
     """
-    Implementation of Algorithm 2 as described in http://www.inf.ufpr.br/amlima/percolation.pdf.
+    Implementation of Algorithm 2 as described in https://dl.acm.org/doi/abs/10.1145/3394486.3403235.
 
 
     Parameters
