@@ -2,14 +2,13 @@
 
 ## SCRIPTS
 
+- File percolationapprox.py: script having the main functions of <a href="https://dl.acm.org/doi/abs/10.1145/3394486.3403235"> our paper </a>.
+  - get_diameter_approx: compute the vertex-diameter approximation of the given graph.
+  - get_percolation_difference: implementation of Algorithm 1.
+  - percolation_centrality_approximation: implementation of Algorithm 2.
 
-- percolationapprox.py: script having the main functions of <a href="https://dl.acm.org/doi/abs/10.1145/3394486.3403235"> our paper </a>.
-- get_diameter_approx: compute the vertex-diameter approximation of the given graph.
-- get_percolation_difference: implementation of Algorithm 1.
-- percolation_centrality_approximation: implementation of Algorithm 2.
 
-
-- test_percolation.py: script of our experiments.
+- File test_percolation.py: script of our experiments.
 
 Usage: python3.7 ./test_percolation <path_to_file> <directed>
         
